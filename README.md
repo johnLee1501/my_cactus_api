@@ -2,12 +2,12 @@
 
 Este proyecto le permite gestionar  un modelo cactus a través de una Api creada con Django restframework.
 
-Algunas caracteristicas principales: 
+### Algunas caracteristicas principales: 
 
--Interfaz Swagger para realizar las operaciones básicas de un CRUD
--Posibilidad de acceder al panel de administración de Django y gestionar el modelo
--Autenticación de Django asociada a Swagger (Para poder realizar operaciones debe estar logueado)
--Posibilidad de subir fotografías asociadadas al modelo a través de Swagger
+#### -Interfaz Swagger para realizar las operaciones básicas de un CRUD
+#### -Posibilidad de acceder al panel de administración de Django y gestionar el modelo
+#### -Autenticación de Django asociada a Swagger (Para poder realizar operaciones debe estar logueado)
+#### -Posibilidad de subir fotografías asociadadas al modelo a través de Swagger
 
 
 ## Getting Started
@@ -72,4 +72,4 @@ py manage.py createusersuperuser
 ![admin](https://user-images.githubusercontent.com/71096926/106147387-c8892180-6145-11eb-9a5a-6a2a9e231a76.jpg)
 ![admin_cactus_model](https://user-images.githubusercontent.com/71096926/106147466-e191d280-6145-11eb-9d8d-8517f9d373c3.jpg)
 ![swagger](https://user-images.githubusercontent.com/71096926/106147506-eeaec180-6145-11eb-9e34-01472e8275aa.jpg)
-
+![swagger_post](https://user-images.githubusercontent.com/71096926/106173552-0eec7980-6162-11eb-8709-0a01971266d6.png)
