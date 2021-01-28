@@ -1,12 +1,20 @@
-# MyCactus
+# Api con Django Rest Framework (MyCactus)
 
-Proyecto backend para categorizar cactus realizado con Django Rest Framework. 
+Este proyecto le permite gestionar  un modelo cactus a través de una Api creada con Django restframework.
+
+Algunas caracteristicas principales: 
+
+-Interfaz Swagger para realizar las operaciones básicas de un CRUD
+-Posibilidad de acceder al panel de administración de Django y gestionar el modelo
+-Autenticación de Django asociada a Swagger (Para poder realizar operaciones debe estar logueado)
+-Posibilidad de subir fotografías asociadadas al modelo a través de Swagger
+
 
 ## Getting Started
 
 Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local con fines de desarrollo y prueba.
 
-### Prerequisites
+### Prerrequisito
 
 Si quieres probar, necesitarás estos requisitos previos
 
@@ -14,7 +22,7 @@ Si quieres probar, necesitarás estos requisitos previos
 Python > 3.6
 ```
 
-### Installing
+### Instalación
 
 Primero, clona el proyecto en tu computadora
 
@@ -56,7 +64,7 @@ Nota: necesitará credenciales de usuario para acceder al panel de administraci�
 py manage.py createusersuperuser
 ```
 
-## Authors
+## Autor
 
 * **John Vega**
 
