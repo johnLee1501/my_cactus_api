@@ -27,15 +27,10 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 SWAGGER_SETTINGS = {
-    'SECURITY_DEFINITIONS': {
-        'DRF Token': {
-            'type': 'apiKey',
-            'name': 'Authorization',
-            'in': 'header'
-        }
-    },
-    'USE_SESSION_AUTH': True
+    'USE_SESSION_AUTH': True,
+    'LOGOUT_URL': '/admin/logout/'
 }
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -140,3 +135,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+LOGIN_URL = '/admin/login/'

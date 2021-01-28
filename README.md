@@ -48,12 +48,12 @@ Listo! ya puedes ejecutarlo
 py manage.py runserver
 ```
 
-Ingresa a localhost:8000/admin o localhost:8000/swagger y explora
+Ingresa a localhost:8000/admin o localhost:8000/swagger y explore
 
-Nota: necesitará credenciales de usuario, asegúrese de crear un usuario con
+Nota: necesitará credenciales de usuario para acceder al panel de administración de Django y para poder hacer uso de los diferentes endpoints de Swagger, asegúrese de crear un usuario con
 
 ```
-py manage.py createuser
+py manage.py createusersuperuser
 ```
 
 ## Authors
