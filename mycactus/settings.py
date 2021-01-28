@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'cactus',
     'user',
     'drf_yasg',
+    'django_cleanup.apps.CleanupConfig',
 ]
 
 MIDDLEWARE = [
