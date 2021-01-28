@@ -61,4 +61,6 @@ py manage.py createuser
 * **John Vega**
 
 ## Screenshots
-
+<img src="screenshots/admin.jpg" height="400" width="800">
+<img src="screenshots/admin_cactus_model.jpg" height="400" width="800">
+<img src="screenshots/swagger.jpg" height="400" width="800">
