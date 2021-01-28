@@ -61,6 +61,7 @@ py manage.py createuser
 * **John Vega**
 
 ## Screenshots
-<img src="screenshots/admin.jpg" height="400" width="800">
-<img src="screenshots/admin_cactus_model.jpg" height="400" width="800">
-<img src="screenshots/swagger.jpg" height="400" width="800">
+![admin](https://user-images.githubusercontent.com/71096926/106147387-c8892180-6145-11eb-9a5a-6a2a9e231a76.jpg)
+![admin_cactus_model](https://user-images.githubusercontent.com/71096926/106147466-e191d280-6145-11eb-9d8d-8517f9d373c3.jpg)
+![swagger](https://user-images.githubusercontent.com/71096926/106147506-eeaec180-6145-11eb-9e34-01472e8275aa.jpg)
+
