@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'cactus',
-    'user',
     'drf_yasg',
     'django_cleanup.apps.CleanupConfig',
 ]
