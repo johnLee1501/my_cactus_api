@@ -1,6 +1,6 @@
 # Api con Django Rest Framework (MyCactus)
 
-Este proyecto le permite gestionar  un modelo cactus a través de una Api creada con Django restframework.
+Este proyecto te permite gestionar un modelo cactus a través de una Api creada con Django restframework.
 
 ### Algunas caracteristicas principales: 
 
