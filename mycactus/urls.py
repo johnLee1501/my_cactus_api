@@ -5,7 +5,7 @@ from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 from rest_framework.routers import SimpleRouter
 
-from cactus.views import CactusViewSet
+from cactus.views import CactusView, UserView
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -17,7 +17,8 @@ schema_view = get_schema_view(
     permission_classes=(permissions.AllowAny,),
 )
 router = SimpleRouter()
-router.register(r'cactus', CactusViewSet)
+router.register(r'cactus', CactusView)
+router.register(r'usuarios', UserView)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
