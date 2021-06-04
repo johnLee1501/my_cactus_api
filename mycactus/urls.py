@@ -21,5 +21,5 @@ router.register(r'cactus', CactusViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0))
+    path('', schema_view.with_ui('swagger', cache_timeout=0))
 ]
