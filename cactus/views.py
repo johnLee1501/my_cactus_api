@@ -10,7 +10,7 @@ from cactus.serializers import CactusSerializer, UserSerializer
 
 class CactusView(ModelViewSet):
     parser_classes = (MultiPartParser, FormParser,)
-    queryset = CactusModel.objects.all()
+    queryset = CactusModel.objects.all().order_by('cactus_id')
     serializer_class = CactusSerializer
     lookup_field = 'cactus_id'
     filter_backends = [DjangoFilterBackend, OrderingFilter]
@@ -19,5 +19,5 @@ class CactusView(ModelViewSet):
 
 
 class UserView(ModelViewSet):
-    queryset = User.objects.all()
+    queryset = User.objects.all().order_by('id')
     serializer_class = UserSerializer
