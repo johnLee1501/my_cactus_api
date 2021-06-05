@@ -1,6 +1,6 @@
 # Api con Django Rest Framework (MyCactus)
 
-Este proyecto te permite gestionar un modelo cactus a través de una Api creada con Django restframework.
+Este proyecto te permite gestionar un modelo a través de una Api creada con Django restframework.
 
 ### Algunas características principales: 
 
@@ -20,7 +20,7 @@ password: root
 ```
 
 
-## Getting Started
+## Guía Rápida
 
 Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local con fines de desarrollo y prueba.
 
@@ -68,7 +68,7 @@ py manage.py runserver
 
 Ingresa a localhost:8000/
 
-Nota: necesitará credenciales de usuario para acceder al panel de administración de Django y para poder hacer uso de los diferentes endpoints de Swagger, asegúrese de crear un usuario con
+Nota: necesitará credenciales de usuario para poder hacer uso de los diferentes endpoints de Swagger, asegúrese de crear un usuario con
 
 ```
 py manage.py createusersuperuser
@@ -80,5 +80,5 @@ py manage.py createusersuperuser
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/71096926/120877724-be58b300-c57d-11eb-929a-8f49ae7696ae.png)
-[image](https://user-images.githubusercontent.com/71096926/120877743-e21bf900-c57d-11eb-9bbb-c6024e210412.png)
+![image](https://user-images.githubusercontent.com/71096926/120877986-193eda00-c57f-11eb-8c22-8f3e3f9b1098.png)
 ![image](https://user-images.githubusercontent.com/71096926/120877781-08da2f80-c57e-11eb-91cb-d5064fe35eef.png)
