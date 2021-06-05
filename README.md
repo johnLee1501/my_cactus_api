@@ -5,9 +5,19 @@ Este proyecto te permite gestionar un modelo cactus a través de una Api creada 
 ### Algunas características principales: 
 
 #### -Interfaz Swagger para realizar las operaciones básicas de un CRUD
-#### -Posibilidad de acceder al panel de administración de Django y gestionar el modelo
+#### -Gestión de usuarios (CRUD) 
 #### -Autenticación de Django asociada a Swagger (Para poder realizar operaciones debe estar logueado)
 #### -Posibilidad de subir fotografías asociadas al modelo a través de Swagger
+
+## Previsualización
+
+Si quieres echar un vistazo a la api antes de clonar el proyecto, puedes dirigirte a: https://cactus-api-1504.herokuapp.com/.
+Utiliza las siguientes credenciales de prueba para autorizarte:
+
+```
+username: root
+password: root
+```
 
 
 ## Getting Started
@@ -56,7 +66,7 @@ Listo! ya puedes ejecutarlo
 py manage.py runserver
 ```
 
-Ingresa a localhost:8000/admin o localhost:8000/swagger y explore
+Ingresa a localhost:8000/
 
 Nota: necesitará credenciales de usuario para acceder al panel de administración de Django y para poder hacer uso de los diferentes endpoints de Swagger, asegúrese de crear un usuario con
 
@@ -69,7 +79,6 @@ py manage.py createusersuperuser
 * **John Vega**
 
 ## Screenshots
-![admin](https://user-images.githubusercontent.com/71096926/106147387-c8892180-6145-11eb-9a5a-6a2a9e231a76.jpg)
-![admin_cactus_model](https://user-images.githubusercontent.com/71096926/106147466-e191d280-6145-11eb-9d8d-8517f9d373c3.jpg)
-![swagger](https://user-images.githubusercontent.com/71096926/106147506-eeaec180-6145-11eb-9e34-01472e8275aa.jpg)
-![swagger_post](https://user-images.githubusercontent.com/71096926/106173552-0eec7980-6162-11eb-8709-0a01971266d6.png)
+![image](https://user-images.githubusercontent.com/71096926/120877724-be58b300-c57d-11eb-929a-8f49ae7696ae.png)
+[image](https://user-images.githubusercontent.com/71096926/120877743-e21bf900-c57d-11eb-9bbb-c6024e210412.png)
+![image](https://user-images.githubusercontent.com/71096926/120877781-08da2f80-c57e-11eb-91cb-d5064fe35eef.png)
